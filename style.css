@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#inputContainer{
+    height: 50vh;
+    width: 50vw;
+    padding: 10px;
+    background-color: #62E322;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+form label{
+    font-size: 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+form input{
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+form button{
+    padding: 5px;
+    margin-top: 55px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#inputContainer p{
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+@media (min-width:150.40px) and (max-width:370px) {
+    #inputContainer{
+width: 100%;
+height: 100%;
+    }
+}
